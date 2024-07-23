@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "@feature-sliced",
+    "prettier",
+    "plugin:storybook/recommended"
+  ]
 }
